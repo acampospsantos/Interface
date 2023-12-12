@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface SMARQ", "Interface SMARQ\Interface SMARQ.csproj", "{8485F89A-F14C-4983-B3E1-CFECC0C4C4BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8485F89A-F14C-4983-B3E1-CFECC0C4C4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8485F89A-F14C-4983-B3E1-CFECC0C4C4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8485F89A-F14C-4983-B3E1-CFECC0C4C4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8485F89A-F14C-4983-B3E1-CFECC0C4C4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DD5BC7E-2BC7-4540-8538-B3E02A35CCCE}
+	EndGlobalSection
+EndGlobal
