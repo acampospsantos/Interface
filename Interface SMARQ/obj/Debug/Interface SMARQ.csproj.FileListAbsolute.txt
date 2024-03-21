@@ -8,3 +8,13 @@ C:\Users\Aluno\Desktop\Anderson Estagiário\Interface da SMARQ\Interface SMARQ\I
 C:\Users\Aluno\Desktop\Anderson Estagiário\Interface da SMARQ\Interface SMARQ\Interface SMARQ\obj\Debug\Interface SMARQ.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Desktop\Anderson Estagiário\Interface da SMARQ\Interface SMARQ\Interface SMARQ\obj\Debug\Interface SMARQ.exe
 C:\Users\Aluno\Desktop\Anderson Estagiário\Interface da SMARQ\Interface SMARQ\Interface SMARQ\obj\Debug\Interface SMARQ.pdb
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\bin\Debug\Interface SMARQ.exe.config
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\bin\Debug\Interface SMARQ.exe
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\bin\Debug\Interface SMARQ.pdb
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\obj\Debug\Interface SMARQ.csproj.AssemblyReference.cache
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\obj\Debug\Interface_SMARQ.Form1.resources
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\obj\Debug\Interface SMARQ.csproj.GenerateResource.cache
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\obj\Debug\Interface SMARQ.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\obj\Debug\Interface SMARQ.exe
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\obj\Debug\Interface SMARQ.pdb
+C:\Users\Pichau\OneDrive\Área de Trabalho\Interface TCC\Interface SMARQ\obj\Debug\Interface_SMARQ.Properties.Resources.resources
