@@ -1,4 +1,4 @@
-# Interface - SMARQ
+# SMARQ: FERRAMENTA DE PROTOTIPAGEM RÁPIDA PARA MAQUETES RESIDENCIAIS 
 
 ## Ilustração da Interface:
 ### Painel de Conexão
