@@ -1,4 +1,11 @@
 # SMARQ: FERRAMENTA DE PROTOTIPAGEM RÁPIDA PARA MAQUETES RESIDENCIAIS 
+## Banner 
+
+## Trabalho Escrito:
+Acesse o trabalho escrito aqui()
+
+## Guia de uso:
+Acesso o Guia aqui()
 
 ## Ilustração da Interface:
 ### Painel de Conexão
@@ -9,7 +16,8 @@
 ![Pag3](https://github.com/acampospsantos/Interface-TCC/assets/54013675/9bd7c7cf-046e-43ee-bbc9-8b1d99686fc5)
 ![Pag4](https://github.com/acampospsantos/Interface-TCC/assets/54013675/a790dbdb-4649-401b-89ba-f1fa903348dc)
 
-
+## Na prática:
+(Ilustrações da maquete funcionando)
 
 
 
