@@ -5,7 +5,7 @@ char d1;
 
 //Variáveis
 int luz;
-float temp = 0.0;
+float temp;
 
 
 void setup() {
@@ -55,6 +55,7 @@ void loop() {
         } else { //luz > 100
           digitalWrite(5 , LOW);
         }
+        delay(1000);
         break;
 
       case 'E':
@@ -75,49 +76,62 @@ void loop() {
         }
         break;
 
-      case 'G':
-        
-        temp = analogRead(A3) * 5 / 1024;
-        temp = temp / 0.01;
+
+      case 'G':        
+        temp = (float(analogRead(A3))*5/(1023))/0.01;
         if (temp >= 30) {
-          tone(8, 300);
-          delay(500);
-          noTone(8);
+          digitalWrite(8, HIGH);
+          //tone(8, 300);
+          //delay(500);
+          //noTone(8);
         } else { //temp1 < 30
-          noTone(8);
+          
+          //noTone(8);
         }
         break;
 
       case 'H':
-        
-        temp = analogRead(A4) * 5 / 1024;
+        temp = (float(analogRead(A4))*5/(1023))/0.01;
         temp = temp / 0.01;
         if (temp >= 30) {
-          tone(9, 300);
-          delay(500);
-          noTone(9);
+          digitalWrite(9, HIGH);
+          //tone(9, 300);
+          //delay(500);
+          //noTone(9);
         } else { //temp < 30
-          noTone(9);
+          //noTone(9);
+          digitalWrite(9, LOW);
         }
         break;
 
       case 'I':
-       
-        temp = analogRead(A5) * 5 / 1024;
+        temp = (float(analogRead(A5))*5/(1023))/0.01;
         temp = temp / 0.01;
         if (temp >= 30) {
-          tone(10, 300);
-          delay(500);
-          noTone(10);
+          digitalWrite(10, HIGH);
+          //tone(10, 300);
+          //delay(500);
+          //noTone(10);
         } else { //temp < 30
-          noTone(10);
+          //noTone(10);
+          digitalWrite(10, LOW);
         }
         break;
+
 
       case 'Z':
       digitalWrite(2, LOW);
       digitalWrite(3, LOW);
       digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, LOW);
+      digitalWrite(9, LOW);
+      digitalWrite(10, LOW);
+      //noTone(8);
+      //noTone(9);
+      //noTone(10);
     }
   }
 }
