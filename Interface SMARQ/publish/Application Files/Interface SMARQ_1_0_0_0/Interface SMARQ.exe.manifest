@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Interface SMARQ.exe" version="1.0.0.0" publicKeyToken="8e9b2f10a3fdb2cf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Interface SMARQ" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Interface SMARQ.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interface SMARQ.exe" size="881128">
+      <assemblyIdentity name="Interface SMARQ" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4LqrEqd0SR3DQ4rd0k5v7QfoKnp0M4nL2w6024xaMps=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Interface SMARQ.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-BG02CTA\Pichau" issuerKeyHash="30cca2389564a4cfe114ad9ee3a95b415a4367f5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9WxZ6AAVUl8qiGdaDKgZswIejsg/SqMLbV9HOyD7x+w=</DigestValue></Reference></SignedInfo><SignatureValue>EC6bz9o9cKVW8Swomls1tCtB9QU5sTUEo78n+uTFowu5718cxwbEV4KB1hOhkwjtwRxIPIOM4p8o+MDKBBXaxZcOhX3LkhGYxEQNx/ffJS5GUwG+MyKWLavncBMHGRmZZN9Lqaqu/Kui5wD9YpT0GNzW/Gi5ZfqPxAtXfeNcoi8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uuC1LrKPOCWUrRPnpmR1SX3gGSZmUK1a7jn0cCixCF2Y2kdQP1IrC47YAkpPmxS+GjSMEKzQ6thSA6/HlsjlnXOTCF6dZehN7K7GPP1gKUvvc09D27gRSyzzkRfsLn11T+QdVzpgBcar4MsCPhzsxeLruJI5KBv0ALc0x7lu50E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ecc7fb203b475f6d0ba34a3fc88e1e02b319a80c5a67882a5f521500e8596cf5" Description="" Url=""><as:assemblyIdentity name="Interface SMARQ.exe" version="1.0.0.0" publicKeyToken="8e9b2f10a3fdb2cf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-BG02CTA\Pichau</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pJn68kIAU9RCkafqCZV5aVX9u0lxrWbf9aKNjIyS8c4=</DigestValue></Reference></SignedInfo><SignatureValue>UZ58zmcTW0sNTMMYeYrCQnxyLckJXWMQs4gLDMYSR5kC7ySv3QTHTNg3+9dUsmMHieZZSt/XjC/uibrxFEX1Bw8Ro2alFAN+UZVrQMHosztQpDFvHUoQj4J7LkjniPH19beSfcNaDx/442HJQfeDpiR1xwd+c4+Y0mU9EsyH8C0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uuC1LrKPOCWUrRPnpmR1SX3gGSZmUK1a7jn0cCixCF2Y2kdQP1IrC47YAkpPmxS+GjSMEKzQ6thSA6/HlsjlnXOTCF6dZehN7K7GPP1gKUvvc09D27gRSyzzkRfsLn11T+QdVzpgBcar4MsCPhzsxeLruJI5KBv0ALc0x7lu50E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQESaiyGDMsYtDIOJSnMQSuTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEIARwAwADIAQwBUAEEAXABQAGkAYwBoAGEAdTAeFw0yNDAzMjExODIxMjBaFw0yNTAzMjIwMDIxMjBaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AQgBHADAAMgBDAFQAQQBcAFAAaQBjAGgAYQB1MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC64LUuso84JZStE+emZHVJfeAZJmZQrVruOfRwKLEIXZjaR1A/UisLjtgCSk+bFL4aNIwQrNDq2FIDr8eWyOWdc5MIXp1l6E3srsY8/WApS+9zT0PbuBFLLPORF+wufXVP5B1XOmAFxqvgywI+HOzF4uu4kjkoG/QAtzTHuW7nQQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEsRVdOY9xMnKjPypzhrS16AKRGB9f73ARhzqBExcCBX2ajfz4qn5dvyFGdfB+UC8IGiBbxm5eCLaiC7DuqmcW4HR5SWfV2AZLB/yhC86AzDFbrCfPhAYESVqJAdX/K9hfdInI7EzG0X0QdPpDuFVjUA8xkhpTjj6ckfs3FZN5EW</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -16,7 +16,7 @@ namespace Interface_SMARQ
     public partial class Form1 : Form
     {
         //Variáveis 
-        //Boolean comunicacao = false;
+        //Boolean loop;
 
         public Form1()
         {
@@ -43,21 +43,21 @@ namespace Interface_SMARQ
                 else
                 { //Se a Porta Serial estiver fechada... --> então abre a porta e manda comandos para a Serial - Informações estão em texto(String)
                     serialPort1.PortName = ComboBoxPort.Text;
-                    serialPort1.BaudRate = Int16.Parse(ComboBoxBaudRate.Text); 
+                    serialPort1.BaudRate = Int16.Parse(ComboBoxBaudRate.Text);
                     //Ou seja, será enviado para minha porta Serial: a porta COM e o BaudRate
                 }
                 serialPort1.Open(); //Abre a porta para a comunicação serial
-                
+
                 ButtonConnect.Enabled = false; //Desabilita o botão conectar: Pra o usuário não poder alterar mais o botão, uma vez que a comunicação já foi estabelecida
-                
+
                 ButtonClose.Enabled = false; //Desabilita o botão fechar programa: Pra o usuário não poder alterar mais o botão, uma vez que a comunicação foi estabelecida
 
                 ButtonDisconnect.Enabled = true; //O botão desconectar fica Habilitado: Pra o usuário poder desligar a comunicação serial
-                
+
                 //Uma vez a porta serial conectada...Não está habilitada fazer alterações no BaudRate e na Porta COM
                 ComboBoxPort.Enabled = false;
                 ComboBoxBaudRate.Enabled = false;
-                
+
                 //Altera a label do Status:
                 lbMsg.Text = "STATUS: CONECTADO";
                 lbMsg.ForeColor = Color.Green;
@@ -69,11 +69,11 @@ namespace Interface_SMARQ
                 //Envia mensagem de Erro
                 MessageBox.Show("# ERRO NA INSERÇÃO DOS PARÂMETROS #");
 
-                ButtonConnect.Enabled = true; 
+                ButtonConnect.Enabled = true;
 
-                ButtonClose.Enabled = true; 
+                ButtonClose.Enabled = true;
 
-                ButtonDisconnect.Enabled = false; 
+                ButtonDisconnect.Enabled = false;
 
                 ComboBoxPort.Enabled = true;
                 ComboBoxBaudRate.Enabled = true;
@@ -113,7 +113,7 @@ namespace Interface_SMARQ
 
                 ComboBoxPort.Enabled = true;
                 ComboBoxBaudRate.Enabled = true;
-                
+
                 //Altera a label do Status:
                 lbMsg.Text = "STATUS: DESCONECTADO";
                 lbMsg.ForeColor = Color.Red;
@@ -157,7 +157,7 @@ namespace Interface_SMARQ
             comboBoxLdrLed1.Enabled = true;
 
             ButtonConnectLDR2.Enabled = true;
-            comboBoxLdr2.Enabled= true;
+            comboBoxLdr2.Enabled = true;
             comboBoxLdrLed2.Enabled = true;
 
             ButtonConnectLDR3.Enabled = true;
@@ -166,7 +166,7 @@ namespace Interface_SMARQ
 
 
             ButtonConnectLm1.Enabled = true;
-            comboBoxLm1.Enabled = true;    
+            comboBoxLm1.Enabled = true;
             comboBoxLmBuzzer1.Enabled = true;
 
             ButtonConnectLm2.Enabled = true;
@@ -195,7 +195,7 @@ namespace Interface_SMARQ
             ButtonConnectLed3.Enabled = false;
             comboBoxLed3.Enabled = false;
             labelLed3.Text = "STATUS: DESCONECTADO";
-            labelLed3.ForeColor = Color.Red;  
+            labelLed3.ForeColor = Color.Red;
 
 
             ButtonConnectLDR1.Enabled = false;
@@ -303,7 +303,7 @@ namespace Interface_SMARQ
         }
 
         private void ButtonConnectLDR2_Click(object sender, EventArgs e)
-        {
+        { 
             if (comboBoxLdr2.Text == "A1" && comboBoxLdrLed2.Text == "6")
             {
                 labelLDR2.Text = "STATUS: CONECTADO";
@@ -384,5 +384,10 @@ namespace Interface_SMARQ
             }
         }
 
+        //LinkLabel que Redireciona o Usuário para o Manual de Uso da SMARQ
+        private void linkLabelManualInterface_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/acampospsantos");
+        }
     }
 }

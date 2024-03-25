@@ -125,6 +125,7 @@ namespace Interface_SMARQ
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.lbMsg = new System.Windows.Forms.Label();
+            this.linkLabelManualInterface = new System.Windows.Forms.LinkLabel();
             this.ConnectionPanel.SuspendLayout();
             this.TbMenus.SuspendLayout();
             this.tabPageLED.SuspendLayout();
@@ -1366,11 +1367,24 @@ namespace Interface_SMARQ
             this.lbMsg.TabIndex = 8;
             this.lbMsg.Text = "STATUS: DESCONECTADO";
             // 
+            // linkLabelManualInterface
+            // 
+            this.linkLabelManualInterface.AutoSize = true;
+            this.linkLabelManualInterface.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelManualInterface.Location = new System.Drawing.Point(48, 338);
+            this.linkLabelManualInterface.Name = "linkLabelManualInterface";
+            this.linkLabelManualInterface.Size = new System.Drawing.Size(129, 20);
+            this.linkLabelManualInterface.TabIndex = 10;
+            this.linkLabelManualInterface.TabStop = true;
+            this.linkLabelManualInterface.Text = "Manual de Uso";
+            this.linkLabelManualInterface.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelManualInterface_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 394);
+            this.Controls.Add(this.linkLabelManualInterface);
             this.Controls.Add(this.lbMsg);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox7);
@@ -1504,6 +1518,7 @@ namespace Interface_SMARQ
         private System.Windows.Forms.Label labelLM3;
         private System.Windows.Forms.Label labelLM2;
         private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.LinkLabel linkLabelManualInterface;
     }
 }
 
