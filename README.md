@@ -1,5 +1,5 @@
 # SMARQ: FERRAMENTA DE PROTOTIPAGEM RÁPIDA PARA MAQUETES RESIDENCIAIS 
-## (Foto do Banner) 
+## (Foto do Banner: resumo do trabalho) 
 
 ## Trabalho Escrito:
 Acesse o trabalho escrito <a href="https://www.linkedin.com/in/andersoncampospsantos/"> aqui</a>
