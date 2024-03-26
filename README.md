@@ -21,8 +21,10 @@ Acesso o Guia <a href=" /"> aqui</a>
 ![Pag4](https://github.com/acampospsantos/SMARQ-TCC/assets/54013675/e500ec0a-78b6-4bdc-ad70-4e1c266ae7cb)
 
 ## Na prática:
-(Ilustrações da maquete montada + funcionando)
-
+### Maquete montada
+(imagem)
+### Maquete com sensores/atuadores
+(imagem)
 
 
 
