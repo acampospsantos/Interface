@@ -2,10 +2,10 @@
 ## (Foto do Banner: resumo do trabalho) 
 
 ## Trabalho Escrito:
-Acesse o trabalho escrito <a href="https://www.linkedin.com/in/andersoncampospsantos/"> aqui</a>
+Acesse o trabalho escrito <a href="/"> aqui</a>
 
 ## Guia/Manual de uso:
-Acesso o Guia <a href=" /"> aqui</a>
+Acesso o Guia <a href="Manual de Uso - SMARQ.pdf/"> aqui</a>
 
 ## Tecnologias Utilizadas
   * C# 
