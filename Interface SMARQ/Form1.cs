@@ -387,7 +387,7 @@ namespace Interface_SMARQ
         //LinkLabel que Redireciona o Usuário para o Manual de Uso da SMARQ
         private void linkLabelManualInterface_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/acampospsantos");
+            System.Diagnostics.Process.Start("https://github.com/acampospsantos/SMARQ-TCC/blob/b337272dd92be9055a391b7d38a0eb295ffa31b5/Manual%20de%20Uso%20-%20SMARQ.pdf");
         }
     }
 }
