@@ -2,7 +2,7 @@
 ## (Foto do Banner: resumo do trabalho) 
 
 ## Trabalho Escrito:
-Acesse o trabalho escrito <a href="/"> aqui</a>
+Acesse o trabalho escrito <a href="https://docs.google.com/document/d/1mf2LqcfRXMkfJesraK6ANSQ2sGdTd7Z5toW7tyacy8Y/edit?usp=sharing/"> aqui</a>
 
 ## Guia/Manual de uso:
 Acesso o Guia <a href="Manual de Uso - SMARQ.pdf/"> aqui</a>
