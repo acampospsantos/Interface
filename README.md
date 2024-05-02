@@ -25,7 +25,8 @@ Acesso o Guia <a href="Manual de Uso - SMARQ.pdf/"> aqui</a>
 ![Maquete-removebg-preview](https://github.com/acampospsantos/SMARQ-TCC/assets/54013675/0bd4ef75-59b5-42e5-9d28-991480bb8361)
 
 ### Maquete com sensores/atuadores
-(imagem)
+![Maquete montada 1](https://github.com/acampospsantos/SMARQ-TCC/assets/54013675/d13b479f-e9d6-4cd7-8a27-9d2a01b83e14)
+
 
 
 
