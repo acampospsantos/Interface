@@ -1,5 +1,5 @@
 # SMARQ: FERRAMENTA DE PROTOTIPAGEM RÁPIDA PARA MAQUETES RESIDENCIAIS 
-<img src="/">
+<img src="Banner Tcc.png/">
 
 ## Trabalho Escrito:
 Acesse o trabalho escrito <a href="https://docs.google.com/document/d/1mf2LqcfRXMkfJesraK6ANSQ2sGdTd7Z5toW7tyacy8Y/edit?usp=sharing/"> aqui</a>
