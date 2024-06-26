@@ -2,7 +2,7 @@
 <img src="Banner Tcc.png/">
 
 ## Artigo Científico:
-Acesse o Artigo Científico <a href="https://docs.google.com/document/d/1mf2LqcfRXMkfJesraK6ANSQ2sGdTd7Z5toW7tyacy8Y/edit?usp=sharing/"> aqui</a>
+Acesse o Artigo Científico <a href="Artigo Científico - TCC II - FINAL.pdf/"> aqui</a>
 
 ## Guia/Manual de uso:
 Acesso o Guia <a href="Manual de Uso - SMARQ.pdf/"> aqui</a>
